@@ -1,0 +1,10 @@
+.app-content {
+	min-height: calc(100vh - 50px);
+	margin: 50px 0 0 250px;
+	padding: 30px;
+	background-color: #e5e5e5;
+	transition: margin-left 0.4s ease;
+	@media (max-width: 767px) {
+		margin-left: 0;
+	}
+}
